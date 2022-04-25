@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ui.logements.ShowLogementController">
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="root" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox layoutX="97.0" layoutY="47.0" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #000;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label prefHeight="35.0" prefWidth="600.0" text="Creer un nouveau logement" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <VBox>
+                     <children>
+                        <Label text="Titre" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="tfTitre" style="-fx-background-color: #282E35;" styleClass="text-light">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </VBox>
+                  <VBox>
+                     <children>
+                        <Label text="Description" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="tfDescription" style="-fx-background-color: #282E35;" styleClass="text-light">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </VBox>
+                  <VBox>
+                     <children>
+                        <Label text="Address" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="tfAddress" style="-fx-background-color: #282E35;" styleClass="text-light">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </VBox>
+                  <VBox>
+                     <children>
+                        <Label text="Equipements" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <ComboBox fx:id="comboboxEquipement" prefHeight="25.0" prefWidth="589.0" />
+                     </children>
+                  </VBox>
+                  <VBox>
+                     <children>
+                        <Label text="Image file" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <HBox>
+                           <children>
+                              <TextField fx:id="tfImageFile" prefHeight="30.0" prefWidth="488.0">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </TextField>
+                              <ImageView fx:id="imageView" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" />
+                              <Button fx:id="buttonBrowse" mnemonicParsing="false" prefHeight="29.0" prefWidth="65.0" text="Browse" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox spacing="4.0">
+                     <children>
+                        <Label text="Activation" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <ComboBox fx:id="comboboxActivation" prefHeight="25.0" prefWidth="589.0" promptText="Active" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0" spacing="5.0">
+                     <children>
+                        <Button fx:id="buttonUpdate" mnemonicParsing="false" prefHeight="39.0" prefWidth="592.0" styleClass="bg-success" text="Update" textFill="WHITE">
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="buttonQrCode" mnemonicParsing="false" prefHeight="39.0" prefWidth="592.0" styleClass="bg-info" text="To QrCode" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </VBox>
+         </children>
+         <stylesheets>
+            <URL value="@../../../resources/them/css/mainMaterial.css" />
+            <URL value="@../../../resources/them/css/bootstrapFx.css" />
+         </stylesheets>
+      </AnchorPane>
+   </children>
+</AnchorPane>

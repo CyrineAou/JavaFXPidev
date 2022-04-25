@@ -1,0 +1,167 @@
+.root {
+    /* bootstrap */
+    -app-primary:#121e33;
+    -primary:#121e33;
+    -secondary:#6C757D;
+    -success:#02C852;
+    -danger:#DC3545;
+    -warning:#FFC107;
+    -info:#0DCAF0;
+    -light:#F8F9FA;
+    -dark:#212529;
+
+    /*Social color*/
+    -facebook  : #3b5998;
+    -twitter   : #55acee;
+    -google    : #dd4b39;
+    -linkedin  : #0082ca;
+    -instagram : #2e5e86;
+    -pinterest : #c61118;
+    -youtube   : #ed302f; 
+}
+
+.bg-app-primary{
+      -fx-background-color : -app-primary;
+}
+.text-app-primary
+{
+    -fx-text-fill : -app-primary;
+}
+
+
+.bg-transparent
+{
+    -fx-background-color : transparent;
+}
+
+.bg-primary , .btn-outline-primary:hover
+{
+    -fx-background-color : -primary;
+}
+.bg-secondary , .btn-outline-secondary:hover
+{
+    -fx-background-color : -secondary;
+}
+.bg-info , .btn-outline-info:hover
+{
+    -fx-background-color : -info;
+}
+.bg-success , .btn-outline-success:hover
+{
+    -fx-background-color : -success;
+}
+.bg-danger , .btn-outline-danger:hover
+{
+    -fx-background-color : -danger;
+}
+.bg-warning , .btn-outline-warning:hover
+{
+    -fx-background-color : -warning;
+}
+.bg-light  , .btn-outline-light:hover
+{
+    -fx-background-color : -light;
+}
+.bg-dark , .btn-outline-dark:hover
+{
+    -fx-background-color : -dark;
+}
+.bg-white 
+{
+    -fx-background-color : #ffffff;
+}
+.bg-black 
+{
+    -fx-background-color : #000000;
+}
+.bg-transparent
+{
+    -fx-background-color : transparent;
+}
+
+.btn-outline-primary{
+    -fx-background-color : transparent;
+    -fx-border-color: -primary;
+}
+.btn-outline-secondary{
+    -fx-background-color : transparent;
+    -fx-border-color: -secondary;
+
+}
+.btn-outline-success{
+    -fx-background-color : transparent;
+    -fx-border-color: -success;
+}
+.btn-outline-danger{
+    -fx-background-color : transparent;
+    -fx-border-color: -danger;
+}
+.btn-outline-warning{
+    -fx-background-color : transparent;
+    -fx-border-color: -warning;
+}
+.btn-outline-info{
+    -fx-background-color : transparent;
+    -fx-border-color: -info;
+}
+.btn-outline-light{
+    -fx-background-color : transparent;
+    -fx-border-color: -light;
+}
+.btn-outline-dark{
+    -fx-background-color : transparent;
+    -fx-border-color: -dark;
+}
+/*              -fx-background-color                */
+
+.bg-radius-10{
+    -fx-background-radius: 10px;
+}
+.bg-radius-25{
+    -fx-background-radius: 25px;
+}
+.bg-radius-40{
+    -fx-background-radius: 40px;
+}
+.bg-radius-100{
+    -fx-background-radius: 100px;
+}
+/*============      -fx-text-fill       ================*/
+
+.text-app-primary 
+{
+    -fx-text-fill : -app-primary;
+}
+.text-primary 
+{
+    -fx-text-fill : -primary;
+}
+.text-secondary 
+{
+    -fx-text-fill : -secondary;
+}
+.text-info 
+{
+    -fx-text-fill : -info;
+}
+.text-success 
+{
+    -fx-text-fill : -success;
+}
+.text-danger 
+{
+    -fx-text-fill : -danger;
+}
+.text-warning
+{
+    -fx-text-fill : -warning;
+}
+.text-light  
+{
+    -fx-text-fill : -light;
+}
+.text-dark
+{
+    -fx-text-fill : -dark;
+}
+

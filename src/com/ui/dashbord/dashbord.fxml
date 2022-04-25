@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ui.dashbord.DashbordController">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <left>
+            <VBox prefHeight="2000.0" prefWidth="150.0" style="-fx-background-color: #171B23;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label prefHeight="43.0" prefWidth="119.0" text="Navigation" textFill="WHITE" />
+                  <HBox />
+                  <Accordion>
+                     <panes>
+                        <TitledPane animated="false" text="Tableau de bord">
+                           <content>
+                              <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #000;">
+                                 <children>
+                                    <Button fx:id="btn_logements" mnemonicParsing="false" prefHeight="39.0" prefWidth="154.0" style="-fx-background-color: #0000;" text="Logements" textFill="WHITE" />
+                                    <Button fx:id="btn_Eqipement" mnemonicParsing="false" prefHeight="30.0" prefWidth="118.0" style="-fx-background-color: #0000;" text="Eqipements" textFill="WHITE" />
+                                 </children>
+                              </VBox>
+                           </content>
+                        </TitledPane>
+                     </panes>
+                  </Accordion>
+               </children>
+            </VBox>
+         </left>
+         <center>
+            <AnchorPane fx:id="ancher" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
