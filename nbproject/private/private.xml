@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/bilel/Documents/NetBeansProjects/PidevUser/src/edu/pidevuser/gui/LoginUserFXMLController.java</file>
+            <file>file:/C:/Users/bilel/Documents/NetBeansProjects/PidevUser/src/edu/pidevuser/gui/HomeAdminController.java</file>
+            <file>file:/C:/Users/bilel/Documents/NetBeansProjects/PidevUser/src/edu/pidevuser/gui/ResetPassController.java</file>
+            <file>file:/C:/Users/bilel/Documents/NetBeansProjects/PidevUser/src/edu/pidevuser/tests/UserFXMain.java</file>
+            <file>file:/C:/Users/bilel/Documents/NetBeansProjects/PidevUser/src/edu/pidevuser/services/ProfileAdmin.java</file>
+            <file>file:/C:/Users/bilel/Documents/NetBeansProjects/PidevUser/src/edu/pidevuser/gui/RegisterUserFXMLController.java</file>
+            <file>file:/C:/Users/bilel/Documents/NetBeansProjects/PidevUser/src/edu/pidevuser/services/ProfileUser.java</file>
+            <file>file:/C:/Users/bilel/Documents/NetBeansProjects/PidevUser/src/edu/pidevuser/utils/PassEnc.java</file>
+            <file>file:/C:/Users/bilel/Documents/NetBeansProjects/PidevUser/src/edu/pidevuser/gui/ProfileUserEditController.java</file>
+            <file>file:/C:/Users/bilel/Documents/NetBeansProjects/PidevUser/src/edu/pidevuser/utils/Mail.java</file>
+            <file>file:/C:/Users/bilel/Documents/NetBeansProjects/PidevUser/src/edu/pidevuser/utils/sendSMS.java</file>
+            <file>file:/C:/Users/bilel/Documents/NetBeansProjects/PidevUser/src/edu/pidevuser/entities/Admin.java</file>
+            <file>file:/C:/Users/bilel/Documents/NetBeansProjects/PidevUser/src/edu/pidevuser/gui/AddAdminController.java</file>
+            <file>file:/C:/Users/bilel/Documents/NetBeansProjects/PidevUser/src/edu/pidevuser/gui/AdminEditUserController.java</file>
+            <file>file:/C:/Users/bilel/Documents/NetBeansProjects/PidevUser/src/edu/pidevuser/gui/AddAminController.java</file>
+            <file>file:/C:/Users/bilel/Documents/NetBeansProjects/PidevUser/src/edu/pidevuser/utils/DataSource.java</file>
+            <file>file:/C:/Users/bilel/Documents/NetBeansProjects/PidevUser/src/edu/pidevuser/tests/PidevUser.java</file>
+            <file>file:/C:/Users/bilel/Documents/NetBeansProjects/PidevUser/src/edu/pidevuser/entities/User.java</file>
+            <file>file:/C:/Users/bilel/Documents/NetBeansProjects/PidevUser/src/edu/pidevuser/gui/ProfileUserController.java</file>
+        </group>
+    </open-files>
+</project-private>

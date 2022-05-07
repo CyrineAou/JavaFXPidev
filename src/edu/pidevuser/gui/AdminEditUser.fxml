@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="375.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.pidevuser.gui.AdminEditUserController">
+   <children>
+      <ImageView fitHeight="387.0" fitWidth="600.0" layoutX="-1.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/amal.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="28.0" layoutY="32.0" opacity="0.8" prefHeight="316.0" prefWidth="542.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 20PX;">
+         <children>
+            <Label fx:id="lblUsername" layoutX="209.0" layoutY="23.0" text="username">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Button layoutX="419.0" layoutY="264.0" mnemonicParsing="false" onAction="#Modifier" prefHeight="25.0" prefWidth="116.0" style="-fx-background-color: #000000;" text="Enregistrer" textFill="WHITE" />
+            <Hyperlink layoutX="33.0" layoutY="265.0" onAction="#retour" text="Retour">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Hyperlink>
+            <Label layoutX="106.0" layoutY="137.0" text="Etat d'utilisateur :">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <CheckBox fx:id="rbBanne" layoutX="106.0" layoutY="220.0" mnemonicParsing="false" onAction="#banne" text="Banne" />
+            <CheckBox fx:id="rdDebanne" layoutX="232.0" layoutY="220.0" mnemonicParsing="false" onAction="#debanne" text="Débanne" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
